@@ -87,7 +87,7 @@ module FFMPEG
     
     def encoding_succeeded?
       #@errors << "no output file created" and return false unless File.exists?(@output_file)
-      @errors << "encoded file is invalid" and return false unless encoded.valid?
+      #@errors << "encoded file is invalid" and return false unless encoded.valid?
       true
     end
     
