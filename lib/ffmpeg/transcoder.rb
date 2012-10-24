@@ -82,7 +82,7 @@ module FFMPEG
         raise FFMPEG::Error, "Failed encoding.#{errors}Full output: #{output}"
       end
       
-      encoded
+      #encoded
     end
     
     def encoding_succeeded?
